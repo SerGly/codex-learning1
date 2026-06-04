@@ -1,0 +1,36 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local config and secrets
+.env
+.env.*
+
+# Scraper output
+boss_jobs.csv
+boss_jobs.json
+*.csv
+*.json
+
+# Browser/runtime artifacts
+.playwright/
+playwright-report/
+test-results/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Personal documents in this folder
+*.docx
+~$*.docx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
